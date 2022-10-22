@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    background-image: url(/IMAGES/1111.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.container-fluid{
+    background-color: bisque;
+    color: aqua;
+}
+.container{
+    width: 40%;
+    color: #000;
+    background-color:bisque;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow:0 2px 5px rgba(0,0,0, 0.3);
+    width: 800px;
+    /* background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8)),url(/images/poultry5.jpg); */
+}
+#myForm{
+    padding: 10px 20px;
+}
+
+.container h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.firstLinks a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 800;
+}
+.allLinks{
+    margin: 0px 20px 1px 30px;
+    padding: 0px 50px 2px 50px;
+}
+.form-outline{
+    margin-bottom: 5px;
+}
+
+.form-outline label {
+    display: block;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+
+
+.form-outline select{
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 10px;
+}
+.form-outline select option{
+    padding: 10px;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+  
+  }
+  
