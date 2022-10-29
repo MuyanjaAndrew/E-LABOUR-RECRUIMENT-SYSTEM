@@ -41,7 +41,7 @@
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="http://127.0.0.1:5500/STYLES/login.html">login</a></li>
                       <li><a class="dropdown-item" href="#">logout</a></li>
-                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="http://127.0.0.1:5500/form2.html">Register as</a></li>
                       <li><a class="dropdown-item" href="#">forgot password</a></li>
                     </ul>
                   </li>
@@ -61,26 +61,119 @@
 
   
     
-  <form>
+  <style>
+    body{
+       
+        font-family: 'Poppins', sans-serif;
+        background-image: url(/IMAGES/1111.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+    .myForm h3{
+        text-align: center;
+        color: black;
+    }
+    .myForm{
+        width: 40%;
+        margin: 10vh auto 0 auto;
+        background-color: rgb(3, 60, 107);
+        border: 1px solid #7aa504;
+        border-radius: 5px;
+        box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.3);
+        font-size: auto;
+        color: #f0f0f0;
+    }
+    .allForm{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 4rem;
+        margin-left: 4rem;
+    }
+    .form-outline input{
+        display: block;
+        border: 1px solid #f0f0f0;
+        border-radius: 5px;
+        font-size: 12px;
+      padding: 10px;
+      width: 100%;
+        margin: 10px 0 10px 0;
+      }
+      .form-outline label{
+        font-size: 16px;
+        
+        
+      }
+      .form-outline input .focus{
+        outline: 0;
+      }
+      .radio{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      #date{
+        padding: 15px;
+      }
+      h4{
+      text-align: center;
+  color:rgb(39, 148, 12);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  background-color:rgb(194, 197, 16);
+}
     
-    <div class="mb-3">
-    <b>  <label for="exampleInputEmail1" class="form-label">Email address</label></b>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-     <b> <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div></b>
+</style>
+</head>
+<body>
+
+<form action="" class="myForm" id="regiset" name="registration">
+    <h4>login</h4>
+    <div class="allForm">
+        <div class="form-outline">
+            <label for="Firstnmae">user-name:</label>
+            <input type="text" name="firstname" id="firstname">
+            <small class="error"></small>
+        </div>
     </div>
+       
+    <div class="allForm">
+        <div class="form-outline">
+            <label for="Firstnmae">Email</label>
+            <input type="text" name="firstname" id="firstname">
+            <small class="error"></small>
+        </div>
+    </div>
+       
     
-    <div class="mb-3">
-      
-     <b> <label for="exampleInputPassword1" class="form-label">Password</label></b>
-     <input type="password" class="form-control" id="exampleInputPassword1">
+    <div class="allForm">
+        <div class="form-outline">
+            <div  class="form-outline">
+                <label for="Firstnmae">password</label>
+                <input type="text" name="secondname" id="secondname">
+                <small class="error"></small>
+            </div>
+        </div>
     </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-     <b><label class="" for="exampleCheck1">Check me out</label></b>
+
+    <div class="allForm ">
+        <div class="form-outline" style="text-align: centre ;">
+            <input type="checkbox" class="firstname" id="firstname">
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+           
+        </div>
+
+       
+    
+   
+             
+            
     </div>
-    <button type="submit" class="btn btn-primary">login</button> 
-   <b> <p class="exampleCheck2"><a href=""> forgot password</a></p></b>
-  </form>
+
+   
+</form>
 
   
 
